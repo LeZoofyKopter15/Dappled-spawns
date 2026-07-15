@@ -1,0 +1,12 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.+'
+}
+
+version = '1.0.0'
+group = 'com.phamh.dappledspawns'
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+}
+
+sourceSets.main.resources { srcDir 'src/main/resources' }
