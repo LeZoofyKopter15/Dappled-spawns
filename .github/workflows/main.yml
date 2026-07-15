@@ -17,7 +17,7 @@ jobs:
           cd Dappled++
           gradle build
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Compiled-Jar
           path: Dappled++/build/libs/*.jar
